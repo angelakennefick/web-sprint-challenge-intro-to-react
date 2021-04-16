@@ -32,11 +32,17 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React is must faster than vanilla JavaScript because it allows modular reusable code that renders individual components when data changes, which results in a smoother user experience.
+
 1. Describe component state.
 
+  Component state is what allows React to react to data changes, the component is changed by updates to it's state.
+
 1. Describe props.
+  Props are vessels to pass data down from one component to another, they pass data only one way, from parent to child.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  Side effects are anything that a function modifys outside of it's body, anything that is not the return value. To sync effects in a component useState establishes the initial state while useEffect may be used everytime the state changes.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 

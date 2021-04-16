@@ -6,3 +6,8 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+body {
+  color: #414b3c;
+  font-family: 'Bitter', serif;
+  
+}
